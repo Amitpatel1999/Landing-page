@@ -1,0 +1,129 @@
+.navbar {
+    background-color: rgb(31, 31, 79);
+    height: 11vh;
+    width: 100%;
+    position:sticky;
+}
+
+.womeki {
+    margin-right: 70%;
+    width: 20vh;
+    margin-top: -38px;
+}
+.womeki:hover{
+    cursor: pointer;
+}
+
+.call {
+    width: 7vh;
+    margin-top: 18px;
+    margin-right: 30vh;
+    transition: transform 0.1s ease-in-out;
+}
+.call:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+  .contact {
+    color: rgb(254, 253, 253);
+    font-size: 30px;
+    margin-top: -6%;
+    margin-right: 10%;
+    transition: transform 0.1s ease-in-out;
+}
+.contact:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@media(max-width:1440px){
+    .womeki {
+        margin-right: 60%;
+        width: 20vh;
+        margin-top: -42px;
+    }
+    .call{
+        margin-left: 60px;
+        
+        width: 6vh;
+    }
+}
+@media(max-width:1024px){
+    .navbar{
+        width: 100%;
+    }
+    .womeki {
+        margin-right: 80%;
+        width: 18vh;
+        margin-top: -30px;
+    }
+    .call{
+        margin-left: 58%;
+        margin-top: -16%;
+        width: 6vh;
+    }
+    .contact{
+        color: rgb(254, 253, 253);
+        margin-left: 55%;
+        margin-top: -11%;
+    }
+}
+@media (max-width:768px){
+    .navbar{
+        width: 200%;
+    }
+    .womeki {
+        margin-right: 80%;
+        width: 18vh;
+        margin-top: -21px;
+    }
+    .call{
+        margin-left: 55%;
+        margin-top: -16%;
+        width: 6vh;
+    }
+    .contact{
+        color: rgb(254, 253, 253);
+        margin-left: 55%;
+        margin-top: -11%;
+    }
+}
+@media (max-width: 425px){
+    .navbar{
+        width: 200%;
+    }
+    .womeki {
+        margin-right: 80%;
+        width: 18vh;
+        margin-top: -21px;
+    }
+    .call{
+        margin-left: 60%;
+        margin-top: -18%;
+        width: 6vh;
+    }
+    .contact{
+        color: rgb(254, 253, 253);
+        margin-left: 60%;
+        margin-top: -13%;
+    }
+}
+@media (max-width:320px){
+    .navbar{
+        width: 200%;
+    }
+    .womeki {
+        margin-right: 80%;
+        width: 15vh;
+        margin-top: -15px;
+    }
+    .call{
+        margin-left: 60%;
+        margin-top: -17%;
+        width: 6vh;
+    }
+    .contact{
+        color: rgb(254, 253, 253);
+        margin-left: 60%;
+        margin-top: -13%;
+    }
+}

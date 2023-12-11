@@ -1,0 +1,580 @@
+.count {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 60px;
+}
+
+.count:hover {
+  background-color: #e0e0e0;
+}
+
+.img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: border-radius 0.3s ease-in-out;
+}
+
+.img:hover {
+  border-radius: 10%;
+}
+
+.part3 {
+  text-align: left;
+}
+
+.txt {
+  margin-top: 50px;
+  color: rgb(23, 23, 23);
+}
+
+.first,
+.mail,
+.number,
+.type,
+.btn {
+  width: 100%;
+  height: 8vh;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.first:hover,
+.mail:hover,
+.number:hover,
+.type:hover {
+  box-shadow: 0 0 30px rgba(10, 10, 10, 0.3);
+  border: 1px solid #eeedec;
+}
+.btn:hover{
+  color: white;
+  background-color: rgb(23, 23, 23); ;
+}
+
+.mail {
+  margin-top: 25px;
+}
+
+.number {
+  margin-top: 25px;
+  margin-left: -0px;
+}
+
+.type {
+  margin-top: 12px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 10px;
+  height: 8vh;
+  font-size: 25px;
+  background-color: #0e50ea;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+
+.Desk::placeholder,
+.first::placeholder,
+.type::placeholder,
+.mail::placeholder,
+.number::placeholder {
+  font-size: 18px;
+}
+
+.first:focus,
+.mail:focus,
+.number:focus,
+.type:focus {
+  font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  .first,
+  .mail,
+  .number,
+  .type,
+  .btn {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.text {
+  text-align: left;
+}
+
+.lrge {
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: rgb(23, 23, 23);
+}
+
+.text4 {
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-top: 25px;
+  color: rgb(23, 23, 23);
+}
+
+.column-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 25px;
+  color: rgb(23, 23, 23);
+}
+
+.card-container {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: 0px 10px 8px #999;
+  display: flex;
+  flex-direction: column;
+  margin: 1.9rem;
+  background-color: white;
+  transition: box-shadow 0.5s ease, background-color 0.5s ease, transform 0.5s ease;
+}
+
+.card-container:hover {
+  box-shadow: 0px 10px 16px #111111;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card-title {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.card-btn7 {
+  text-align: left;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.crd-description {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.images {
+  margin-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .column-container {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    width: 45%;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.Commercials {
+  text-align: left;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Commercial {
+  text-align: left;
+  font-size: 18px;
+}
+
+.diff {
+  margin-top: 50px;
+}
+
+.projects {
+  text-decoration: underline;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 20px;
+  font-weight: 700;
+  margin-top: 40px;
+  color: rgb(23, 23, 23);
+}
+
+.projects:hover {
+  color: rgb(142, 94, 94);
+}
+
+.footer {
+  width: 100%;
+  background-color: #0f172a;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 90px;
+  border-radius: 6px;
+}
+
+.logoimg {
+  width: 25vh;
+  margin-left: -40vh;
+}
+
+.yourmail {
+  font-size: 4vh;
+  color: white;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.emailaddress {
+  width: 35vh;
+  height: 6vh;
+  border-radius: 6px 0 0 6px;
+  font-family: roboto;
+  font-size: 20px;
+  border: none;
+}
+
+.submitt {
+  width: 15vh;
+  height: 6vh;
+  border-radius: 0 6px 6px 0;
+  font-family: roboto;
+  font-size: 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.submitt:hover,
+.emailaddress:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .btn {
+    width: 100%;
+    margin-top: 12px;
+    border-radius: 10px;
+    height: 8vh;
+    font-size: 20px;
+    background-color: #0f172a;
+    color: white;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .logoimg {
+    margin-left: 0; 
+  }
+
+  .yourmail,
+  .emailaddress,
+  .submitt {
+    width: 90%;
+    margin-left: 0;
+    box-sizing: border-box;
+  }
+
+  .emailaddress,
+  .submitt {
+    border-radius: 0;
+  }
+}
+.womeki {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: -20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.womeki:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.callwomeki {
+  display: flex;
+  align-items: center;
+}
+
+.call {
+  width: 60px;
+  height: 60px;
+  margin-left: 30%;
+  margin-top: -25%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.call:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.contact{
+  color: rgb(246, 243, 243);
+  margin-left: 73%;
+  margin-top: -16%;
+}
+@media (max-width: 767px) {
+  .callwomeki {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .call {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .contact {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .call {
+    margin-left: 25%;
+    margin-top: -21%;
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact {
+    margin-left: 60%;
+    margin-top: -14%;
+    font-size: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  .call {
+    margin-left: 32%;
+    margin-top: -22%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .contact {
+    margin-left: 70%;
+    margin-top: -14%;
+    font-size: 35px;
+  }
+}
+@media (min-width: 1440px) {
+  .call {
+    margin-left: 25%;
+    margin-top: -25%;
+    width: 70px;
+    height: 70px;
+  }
+
+  .contact {
+    margin-left: 68%;
+    margin-top: -17%;
+    font-size: 35px;
+  }
+}
+@media (min-width: 2560px) {
+  .call {
+    margin-left: 18%;
+    margin-top: -33%;
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .contact {
+    margin-left: 68%;
+    margin-top: -20%;
+    font-size: 65px;
+  }
+}
+.part3 {
+  text-align: left;
+}
+
+.part3:hover .first,
+.part3:hover .mail,
+.part3:hover .number,
+.part3:hover .type,
+.part3:hover .submitt {
+  box-shadow: 0 0 30px rgba(10, 10, 10, 0.3);
+  border: 1px solid #eeedec;
+}
+
+.first,
+.mail,
+.number,
+.type{
+  width: 100%;
+  height: 8vh;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.submitt:hover {
+  background-color: navy;
+  color: rgb(249, 246, 246);
+}
+
+.first:hover,
+.mail:hover,
+.number:hover,
+.type:hover {
+  box-shadow: 0 0 30px rgba(10, 10, 10, 0.3);
+  border: 1px solid #eeedec;
+}
+.card-image {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 10px 10px 0 0; 
+}
+.style {
+  background-color: rgb(23, 23, 23);
+  height: 15vh;
+  
+}
+
+.womekii {
+  height: 23vh;
+  width: 23vh;
+  margin-top: -30px;
+  margin-right: 80vh;
+  padding: 4px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.womekii:hover {
+  transform: scale(1.1); 
+}
+
+.callwici {
+  margin-top: 25px;
+  margin-left: 40%;
+  display: flex;
+  margin-left: 60vh;
+}
+
+.calls {
+  width: 8vh;
+  height: 8vh;
+  transition: transform 0.3s ease-in-out;
+  margin-left: -35vh;
+ 
+}
+
+.calls:hover {
+  transform: scale(1.1); 
+}
+
+.contacts {
+  font-size: 30px;
+  color: rgb(252, 251, 251);
+  margin-left: 55px;
+  margin-top: -45px;
+}
+
+.contacts:hover {
+  text-decoration: underline; 
+}
+
+
+@media (max-width: 1440px){
+  .contacts{
+    font-size: 45px;
+    margin-top: -65px;
+    margin-left: 10vh;
+  }
+  .callwici {
+   
+    margin-left: 30vh;
+  }
+  
+  .calls {
+    width: 8vh;
+    height: 8vh;
+    margin-top: 20px;
+   
+  }
+}
+
+@media (max-width: 1024px) {
+  .style {
+    background-color: rgb(23, 23, 23);
+    height: 15vh;
+  }
+  .womekii {
+    height: 23vh;
+    width: 23vh;
+    margin-top: -30px;
+    margin-right: 90vh;
+  }
+  .callwici {
+    margin-left: 85vh;
+    justify-content: center;
+    margin-top: -16vh;
+
+  }
+  .contacts{
+    font-size: 32px;
+    margin-top: -50px;margin-left: 4vh;
+  }
+  .calls {
+    width: 8vh;
+    height: 8vh;
+    margin-top:6px;
+  }
+}
+@media (max-width: 768px) {
+  .contacts{
+    font-size: 32px;
+    margin-top: -45px;
+    margin-left: -10px;
+  }
+  .calls {
+    width: 8vh;
+    height: 8vh;
+    margin-top:9px;
+    margin-left: -50vh;
+  }
+}
+@media (max-width: 767px) {
+  .style {
+    background-color: rgb(23, 23, 23);
+    height: 25vh;
+  }
+
+  .womekii {
+    margin-right: 0;
+  }
+
+  .callwici {
+    margin-left: 0;
+    justify-content: center;
+    margin-top: -5vh;
+    margin-left: 40px;
+  }
+  .contacts{
+    font-size: 28px;
+    margin-top: -40px;
+  }
+  .calls{
+    margin-right: -20px;
+  }
+
+}
